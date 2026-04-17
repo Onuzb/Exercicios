@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9b9b9b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.caixanum {
+    width: 150px;
+    height: 15px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.caixanum2 {
+    width: 150px;
+    height: 15px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.valor {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.botao {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #720abda3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.result {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    font-size: 18px;
+    padding: 2px;
+}

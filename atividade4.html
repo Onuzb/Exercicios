@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="atividade4.css">
+</head>
+<body>
+    <h1 class="titulo">Calculadora</h1>
+    <input class="caixanum" type="number" id="num1" placeholder="Número 1">
+    <input class="caixanum2" type="number" id="num2" placeholder="Número 2">
+    <select class="valor" id="operacao">
+        <option value="soma">+</option>
+        <option value="menos">-</option>
+        <option value="mutiplicacao">*</option>
+        <option value="divisao">/</option>
+    </select>
+    <button class="botao" onclick="conta()">Calcular</button>
+    <br>
+    <input class="result" type="text" id="resultado" readonly placeholder="Resultado">
+
+    <script src="atividade4.js"></script>
+</body>
+</html>
